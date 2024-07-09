@@ -44,7 +44,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'yourusername',
   password: 'yourpassword',
-  database: 'icontrolit'
+  database: 'database '
 });
 
 db.connect((err) => {
